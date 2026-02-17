@@ -21,20 +21,12 @@ console.log(num) // 81
 
 With `let` and `const` declarations are hoisted but remain in a "**Temporal Dead Zone**"
 
-#### Temporal Dead Zone (TDZ)
+##### Temporal Dead Zone (TDZ)
 
 The **Temporal Dead Zone (TDZ)** is the time period between when a variable is hoisted (moved to the top of its scope) and when it's actually initialized with a value. During this zone, the variable exists but is in an "uninitialized" state, and trying to access it results in a `ReferenceError`.
 
 ```javascript
-console.log(num);
+console.log(num); //  ReferenceError: Cannot access 'num' before initialization
 let num = 72;
-console.log(num);
+console.log(num); // 72
 ```
-
-**Output:**
-
-console.log(num);
-
-    ^
-
-ReferenceError: Cannot access 'num' before initialization
