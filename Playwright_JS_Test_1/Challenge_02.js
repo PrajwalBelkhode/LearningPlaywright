@@ -8,7 +8,7 @@ After a test suite runs, you receive an array of test results (strings: "pass", 
 
 let testResults = ["pass", "pass", "fail", "pass", "skip", "pass", "fail", "pass"];
 let count_of_pass = 0; let count_of_fail = 0; let count_of_skip = 0;
-testResults_length = testResults.length
+let testResults_length = testResults.length
 
 for(let i=0;i < testResults_length; i++){
     if (testResults[i] == "pass"){
