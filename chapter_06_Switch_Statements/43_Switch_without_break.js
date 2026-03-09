@@ -18,3 +18,12 @@ switch(day) {
     default:
         console.log("Invalid day value");
 }
+
+/**
+ * Output:
+ * Wednesday - Code review
+ * Thursday - Testing
+ * Friday — Deployment & Retro
+ * Saturday - Rest day
+ * Invalid day value
+ */
