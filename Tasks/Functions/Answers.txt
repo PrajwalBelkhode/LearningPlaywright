@@ -1,0 +1,10 @@
+1. c) Hello, Alice!
+2. d) ReferenceError
+3. b) null
+4. c) 3
+5. a) function log(msg) { console.log(msg); } 
+6. c) 4
+7. b) undefined
+8. b) [3, 5, 7]
+9. b) "Running: Login"
+10. b) 30
