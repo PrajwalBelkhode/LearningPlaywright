@@ -27,3 +27,9 @@ PlaceOrder("Garlic bread", function(){
 PlaceOrder("Pasta", () => {
     console.log("Arrow function here");
 })
+
+// 
+
+PlaceOrder("Pizza",() =>{
+    console.log("Hello, We are done with your order");
+})
