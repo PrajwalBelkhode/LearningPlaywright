@@ -37,6 +37,8 @@ async function APITest(){
         await submitDetails();
     } catch(error){
         console.log(`[ERROR]:`,error);
+    } finally{
+        console.log("Clean up!!!")
     }
 }
 
