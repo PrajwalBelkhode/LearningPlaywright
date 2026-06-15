@@ -1,0 +1,15 @@
+class APIClient{
+    constructor(BaseURL){
+        this.BaseURL = BaseURL;
+    }
+
+    get(path){
+        return this.BaseURL + path;
+    }
+}
+
+let staging = new APIClient("https://staging.api.com");
+let prod = new APIClient("https://prod.api.com");
+
+console.log(staging.get("/users"));
+console.log(prod.get("/users"));
