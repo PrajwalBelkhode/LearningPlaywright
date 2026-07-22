@@ -11,7 +11,7 @@ class BaseTest{
 class LoginTest extends BaseTest{
     override setup(): void{
         console.log("[LoginTest]: Open browser");
-        console.log("[LoginTest] Maximize")
+        console.log("[LoginTest]: Maximize")
     }
 }
 
